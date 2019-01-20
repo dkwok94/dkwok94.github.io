@@ -2,6 +2,15 @@ $(window).on("load", function() {
     $(".loader .inner").fadeOut(1000, function() {
         $(".loader").fadeOut(1250);
     });
+
+    $('.items').isotope({
+        filter: '*',
+        animationOptions: {
+            duration: 1500,
+            easing: 'linear',
+            queue: false
+        }
+    });
 });
 
 $(document).ready(function() {
@@ -58,15 +67,6 @@ $(document).ready(function() {
     });
 
     $('[data-fancybox]').fancybox();
-
-    $('.items').isotope({
-        filter: '*',
-        animationOptions: {
-            duration: 1500,
-            easing: 'linear',
-            queue: false
-        }
-    });
 
     $('#filters a').click(function() {
         $("#filters .current").removeClass("current");
