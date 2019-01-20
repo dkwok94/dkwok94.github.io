@@ -21,9 +21,8 @@ $(document).ready(function() {
     });
 
     $('.owl-carousel').owlCarousel({
-        loop:true,
         autoplay: true,
-        autoplayHoverPause: true,
+        dots: true,
         items: 9,
         responsive:{
             0:{

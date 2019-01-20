@@ -10,7 +10,7 @@ body {
     height: 100%;
     position: absolute;
     z-index: 3;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .titleMessage {
@@ -31,11 +31,11 @@ body {
 }
 
 .titleMessage .heading .name {
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .titleMessage .heading .subheading {
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .section {
@@ -66,6 +66,10 @@ body {
 .owl-carousel {
     background: #444;
     border-radius: 15px;
+}
+
+.navbar-collapse {
+    text-align: center;
 }
 
 .skillsSection, .contactSection {
