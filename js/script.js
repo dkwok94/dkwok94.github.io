@@ -30,7 +30,6 @@ $(document).ready(function() {
     });
 
     $('.owl-carousel').owlCarousel({
-        autoplay: true,
         dots: true,
         items: 9,
         responsive:{
