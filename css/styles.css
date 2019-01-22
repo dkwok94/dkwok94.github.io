@@ -91,10 +91,84 @@ body {
     background-color: #3F51B5;
 }
 
+.socialLinksAbout {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.linkedinAbout {
+    background: url("../imgs/icons/linkedin-small.png");
+    height: 32px;
+    width: 32px;
+
+    transition: all 0.2s linear, 1s;
+    -webkit-transition: all 0.2s linear, 1s;
+    -moz-transition: all 0.2s linear, 1s;
+    -o-transition: all 0.2s linear, 1s;
+    -ms-transition: all 0.2s linear, 1s;
+    -transition: all 0.2s linear, 1s;
+}
+
+.linkedinAbout:hover {
+    background: url("../imgs/icons/linkedin-small-hover.png");
+}
+
+.twitterAbout {
+    background: url("../imgs/icons/twitter-small.png");
+    height: 32px;
+    width: 32px;
+
+    transition: all 0.2s linear, 1s;
+    -webkit-transition: all 0.2s linear, 1s;
+    -moz-transition: all 0.2s linear, 1s;
+    -o-transition: all 0.2s linear, 1s;
+    -ms-transition: all 0.2s linear, 1s;
+    -transition: all 0.2s linear, 1s;
+}
+
+.twitterAbout:hover {
+    background: url("../imgs/icons/twitter-small-hover.png");
+}
+
+.githubAbout {
+    background: url("../imgs/icons/github-small.png");
+    height: 32px;
+    width: 32px;
+
+    transition: all 0.2s linear, 1s;
+    -webkit-transition: all 0.2s linear, 1s;
+    -moz-transition: all 0.2s linear, 1s;
+    -o-transition: all 0.2s linear, 1s;
+    -ms-transition: all 0.2s linear, 1s;
+    -transition: all 0.2s linear, 1s;
+}
+
+.githubAbout:hover {
+    background: url("../imgs/icons/github-small-hover.png");
+}
+
+.mediumAbout {
+    background: url("../imgs/icons/medium-small.png");
+    height: 32px;
+    width: 32px;
+
+    transition: all 0.2s linear, 1s;
+    -webkit-transition: all 0.2s linear, 1s;
+    -moz-transition: all 0.2s linear, 1s;
+    -o-transition: all 0.2s linear, 1s;
+    -ms-transition: all 0.2s linear, 1s;
+    -transition: all 0.2s linear, 1s;
+}
+
+.mediumAbout:hover {
+    background: url("../imgs/icons/medium-small-hover.png");
+}
+
 /* Skills */
 .owl-carousel {
     background: #444;
     border-radius: 10px;
+    padding-top: 30px;
 }
 
 .skill {
@@ -141,7 +215,7 @@ body {
     content: '%';
 }
 
-/* Stats */
+/* Education */
 .squareItem {
     margin-top: 30px;
     position: relative;
@@ -173,14 +247,14 @@ body {
 }
 
 .squareContent h2 {
-    font-size: 56px;
+    font-size: 25px;
     margin-bottom: 10px;
     font-weight: 400;
     color: #3F51B5;
 }
 
 .squareContent h3 {
-    font-size: 13px;
+    font-size: 18px;
     font-weight: 600;
     margin: 0;
 }
@@ -194,6 +268,31 @@ body {
     font-size: 45px;
     margin-left: -20%;
     color: #444;
+
+    transition: all 0.2s linear, 1s;
+    -webkit-transition: all 0.2s linear, 1s;
+    -moz-transition: all 0.2s linear, 1s;
+    -o-transition: all 0.2s linear, 1s;
+    -ms-transition: all 0.2s linear, 1s;
+    -transition: all 0.2s linear, 1s;
+}
+
+.squareIcon:hover {
+    transform: scale(1.5, 1.5);
+    -webkit-transform: scale(1.5, 1.5);
+    -moz-transform: scale(1.5, 1.5);
+    -o-transform: scale(1.5, 1.5);
+    -ms-transform: scale(1.5, 1.5);
+    -transform: scale(1.5, 1.5);
+}
+
+.degree {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.educationHeader {
+    margin-bottom: 30px;
 }
 
 /* Contact */
@@ -222,43 +321,43 @@ body {
 }
 
 .linkedin {
-    background: url("../imgs/icons/linkedin-hover.png");
+    background: url("../imgs/icons/linkedin.png");
     height: 90px;
     width: 90px;
 }
 
 .linkedin:hover {
-    background: url("../imgs/icons/linkedin.png");
+    background: url("../imgs/icons/linkedin-hover.png");
 }
 
 .twitter {
-    background: url("../imgs/icons/twitter-hover.png");
+    background: url("../imgs/icons/twitter.png");
     height: 90px;
     width: 90px;
 }
 
 .twitter:hover {
-    background: url("../imgs/icons/twitter.png");
+    background: url("../imgs/icons/twitter-hover.png");
 }
 
 .github {
-    background: url("../imgs/icons/github-hover.png");
+    background: url("../imgs/icons/github.png");
     height: 90px;
     width: 90px;
 }
 
 .github:hover {
-    background: url("../imgs/icons/github.png");
+    background: url("../imgs/icons/github-hover.png");
 }
 
 .medium {
-    background: url("../imgs/icons/medium-hover.png");
+    background: url("../imgs/icons/medium.png");
     height: 90px;
     width: 90px;
 }
 
 .medium:hover {
-    background: url("../imgs/icons/medium.png");
+    background: url("../imgs/icons/medium-hover.png");
 }
 
 /* Portfolio */
@@ -487,6 +586,7 @@ body {
 
 .timeline ul {
     padding-left: 0;
+    padding-top: 30px;
 }
 
 .timeline ul li {
