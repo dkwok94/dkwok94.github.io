@@ -3,6 +3,7 @@ body {
     color: #333;
     background-color: #fff;
     letter-spacing: 1px;
+    font-family: 'Share Tech', sans-serif;
 }
 
 /* Title */
@@ -67,7 +68,11 @@ body {
 }
 
 .aboutImg {
-    max-width: 100%;
+    max-width: 75%;
+}
+
+.aboutImgContainer {
+    text-align: center;
 }
 
 .resume-col {
@@ -165,21 +170,53 @@ body {
 }
 
 /* Skills */
-.owl-carousel {
+
+.skillsContainer {
     background: #444;
     border-radius: 10px;
-    padding-top: 30px;
+    padding-top: 70px;
+}
+
+.skillsLabel {
+    margin-bottom: 30px;
+}
+
+.technologies {
+    display: inline;
+}
+
+.category {
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.categoryContainer {
+    border: 1px solid #646464;
+    border-radius: 5px;
+    margin: 20px 20px;
+
+}
+
+.tech {
+    width: 80px;
+    margin-bottom: 10px;
 }
 
 .skill {
     text-align: center;
-    margin-right: 22px;
-    margin-left: 22px;
-    margin-top: 20px;
+    margin: 10px 60px;
+    display: inline-block;
 }
 
 .skill h4 {
     padding-top: 20px;
+}
+
+@media screen and (max-width: 770px) {
+    .skill {
+        display: block;
+    }
 }
 
 .chart {
@@ -216,6 +253,11 @@ body {
 }
 
 /* Education */
+
+.educationList {
+    text-align: left;
+}
+
 .squareItem {
     margin-top: 30px;
     position: relative;
@@ -223,7 +265,7 @@ body {
 
 .squareInnerContainer {
     position: relative;
-    padding: 50px 15px 35px;
+    padding: 80px 15px 35px;
     text-align: center;
     border: 2px solid #444;
     border-top: none;
@@ -262,9 +304,9 @@ body {
 .squareIcon {
     position: absolute;
     left: 50%;
-    top: -30px;
+    top: -50px;
     width: 40%;
-    height: 60px;
+    height: 100px;
     font-size: 45px;
     margin-left: -20%;
     color: #444;
@@ -278,12 +320,26 @@ body {
 }
 
 .squareIcon:hover {
-    transform: scale(1.5, 1.5);
-    -webkit-transform: scale(1.5, 1.5);
-    -moz-transform: scale(1.5, 1.5);
-    -o-transform: scale(1.5, 1.5);
-    -ms-transform: scale(1.5, 1.5);
-    -transform: scale(1.5, 1.5);
+    transform: scale(0.8, 0.8);
+    -webkit-transform: scale(0.8, 0.8);
+    -moz-transform: scale(0.8, 0.8);
+    -o-transform: scale(0.8, 0.8);
+    -ms-transform: scale(0.8, 0.8);
+    -transform: scale(0.8, 0.8);
+}
+
+.holbertonIcon {
+    background-image: url('../imgs/logos/holberton.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 2.5em;
+}
+
+.uiucIcon {
+    background-image: url('../imgs/logos/uiuc.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 2.5em;
 }
 
 .degree {

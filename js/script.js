@@ -13,6 +13,8 @@ $(window).on("load", function() {
     });
 });
 
+
+// Superslides transitions
 $(document).ready(function() {
     $('#slides').superslides({
         animation: 'fade',
@@ -21,6 +23,7 @@ $(document).ready(function() {
         pagination: false
     });
 
+    // Typed Plugin
     var typed = new Typed(".typed", {
         strings: ['Software Engineer.', 'Traveler.', 'Musician.', 'Lifelong Learner.'],
         typeSpeed: 70,
@@ -67,6 +70,8 @@ $(document).ready(function() {
 
     $('[data-fancybox]').fancybox();
 
+
+    // Portfolio Filter
     $('#filters a').click(function() {
         $("#filters .current").removeClass("current");
         $(this).addClass("current");
@@ -90,13 +95,14 @@ $(document).ready(function() {
         var targetElement = $(this).attr("href");
         var targetPosition = $(targetElement).offset().top;
         $("html, body").animate({
-            scrollTop: targetPosition - 80,
+            scrollTop: targetPosition - 70,
         }, "slow");
     });
 
     const nav = $("#navigation");
     const navTop = nav.offset().top;
 
+    // Sticky Navigation Bar
     function stickyNavigation() {
         var body = $("body");
         if($(window).scrollTop() >= navTop) {
