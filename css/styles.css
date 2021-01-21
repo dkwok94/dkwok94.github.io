@@ -328,8 +328,8 @@ body {
     -transform: scale(0.8, 0.8);
 }
 
-.holbertonIcon {
-    background-image: url('../imgs/logos/holberton.png');
+.softwareIcon {
+    background-image: url('../imgs/logos/software.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 2.5em;
